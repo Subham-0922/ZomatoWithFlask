@@ -5,7 +5,7 @@ DISHES_FILE = 'dishes.json'
 ORDERS_FILE = 'orders.json'
 app = Flask(__name__)
 CORS(app)
-app.secret_key = 'Murli@123'
+app.secret_key = 'Prince@123'
 
 def load_data(file_name):
     try:
